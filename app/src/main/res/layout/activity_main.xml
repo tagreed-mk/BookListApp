@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dimen16dp"
+    android:paddingLeft="@dimen/dimen16dp"
+    android:paddingTop="@dimen/dimen16dp"
+    tools:context="com.tagreed.abnd.booklistapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/search_text"
+            android:layout_weight="1"
+            android:layout_width="@dimen/dimen0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/serch_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stringSearch"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/book_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+    <TextView
+        android:id="@+id/empty_book_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/stringEmptyBook"
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/dimen16dp"
+        android:paddingRight="@dimen/dimen16dp"
+        android:paddingTop="@dimen/dimen16dp"
+        android:paddingBottom="@dimen/dimen16dp"/>
+
+</LinearLayout>

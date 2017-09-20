@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BookListApp</string>
+    <string name="stringSearch">Search a book</string>
+    <string name="stringTitle">Book Title</string>
+    <string name="stringAuthor">Book Author</string>
+    <string name="stringEmptyBook">No Book Available</string>
+</resources>
